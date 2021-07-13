@@ -1,0 +1,48 @@
+#div1{
+    height: 200px;
+    width: 200px;
+    background-color:gold;
+    margin: 0 auto;
+    margin-top: 200px;
+ 
+    transition: 3s;
+}
+
+#div1:hover{
+    transform:rotate(300deg) scale(4);
+ 
+}
+
+
+#div2{
+    height: 200px;
+    width: 200px;
+    background-color:green;
+    margin: 0 auto;
+    margin-top: 200px;
+ 
+    transition: 3s;
+}
+
+#div2:hover{
+    transform: translate(150px,250px);
+    
+}
+
+
+.flex_container{
+    display: flex;
+    background: green;
+    flex-direction: row-reverse;
+    padding: 10px;
+ 
+}
+
+.flex-container{
+    border: 1px solid #fff;
+    font-size: 30px;
+    padding: 20px;
+    color: white;
+    margin: 10px;
+    align-items: center;
+}
